@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
-*,*::after, *::before{
+/* *,*::after, *::before{
     margin: 0;
     box-sizing: border-box;
 }
@@ -10,9 +10,11 @@ html{
 body{
     font-size: 1.6rem;
     overflow-x: hidden;
-    /* background-color: black; */
-    /* width:100vw; */
-}
+    background-color: black;
+    width:100vw;
+ } */
+
+
 /* Navbar */
 li{
     list-style: none;
