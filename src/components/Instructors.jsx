@@ -7,7 +7,7 @@ import image4 from '../assets/image 50.png';
 
 function Instructors() {
   return (
-    <div className="instructors_section">
+    <div className="instructors_section sm:w-full">
       <div className="instructors_header">
         <h1 className="instructors_heading">Learn from the Best Minds in the field</h1>
       </div>

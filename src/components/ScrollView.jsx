@@ -11,7 +11,7 @@ import img12 from '../assets/image 28.png';
 
 function ScrollView() {
   return (
-    <div className="scroll">
+    <div className="scroll sm:max-w-full overflow-hidden">
     <div className="scroll_images">
       <div className="scroll_image">
         <img src={img4}/>

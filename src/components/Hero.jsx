@@ -6,8 +6,10 @@ import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 
 function Hero() {
   return (<>
-    <div className="background" style={{ backgroundImage: `url(${img2})`,
+  <div className="hero_section">
+    <div className="background w-full" style={{ backgroundImage: `url(${img2})`,
     height: "auto",
+    width: "100%",
     backgroundPosition:"100% 50%",
     backgroundRepeat: "no-repeat"}}>
     <div className="hero">
@@ -59,6 +61,7 @@ function Hero() {
     <div className="hero_end">
     <div><span className="hero_end_span">Trusted by 2500+ Students</span> who are learning Data Science, AI and</div>
     <div>ML using the following tools.</div>
+    </div>
     </div>
     </div>
     

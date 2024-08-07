@@ -5,7 +5,7 @@ import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 
 function Press() {
   return (
-    <div className="press_section">
+    <div className="press_section sm:w-full overflow-hidden">
       <div className="press_header">As seen in the press</div>
       <div className="press_images">
         <img src={press_image1}/>

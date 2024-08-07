@@ -8,7 +8,7 @@ import { FaCheck } from "react-icons/fa";
 
 function Cards() {
   return (
-    <div className="cards_section">
+    <div className="cards_section sm:w-full">
         <div className="cards_header">
             <h1 className="cards_header_heading">Rethink The Way You Learn</h1>
            <div className="cards_header_text"><p>The choice is yours. Choose from recorded courses or live instructor-led classes.</p></div>
